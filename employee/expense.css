@@ -1,0 +1,112 @@
+.btn-danger {
+  border: none;
+  border-radius: 30px;
+  padding: 20px 20px;
+  white-space: nowrap;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 123, 255, 0.4);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #f80000;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 8px rgba(0, 123, 255, 0.6);
+}
+
+.btn-warning {
+  border: none;
+  border-radius: 30px;
+  padding: 20px 20px;
+  white-space: nowrap;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 123, 255, 0.4);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-warning:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 8px rgba(0, 123, 255, 0.6);
+}
+.modal-content {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Gallery styling */
+#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.thumbnail:hover {
+  transform: scale(8.8);
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#capture {
+  background-color: green;
+}
+#capture::after {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 8px rgba(0, 123, 255, 0.6);
+}
+#edit-capture {
+  margin-top: 15px;
+  background-color: green;
+}
+
+li a {
+  text-decoration: none; /* Removes underline from links */
+}
+
+a {
+  text-decoration: none;
+  border: none;
+}
+.custom-webcam {
+  width: 50px; /* Default for smaller screens */
+  max-width: 100px; /* Maximum size */
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .custom-webcam {
+      width: 70%; /* Adjust size for larger screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-webcam {
+      width: 50%; /* Adjust size for very large screens */
+  }
+}
+

@@ -1,0 +1,9 @@
+ADMIN CREDENTIAL:
+
+USERNAME: admin
+PASSWORD: admin123
+
+EMPLOYEE:
+
+USERNAME: employee
+PASSWORD: nicothings123
